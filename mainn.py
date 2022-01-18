@@ -20,7 +20,7 @@ async def send_welcome(message: types.Message):
     """
     This handler will be called when user sends `/start` or `/help` command
     """
-    await message.reply("Baxronov  Botiga Xush Kelibsiz\n Iltimos 2tadan ortiq so'z yuboring\n Ingliz yoki uzbek tilida")
+    await message.reply("Feruz Baxronov  Botiga Xush kelibsiz\n Iltimos 2tadan ortiq so'z yuboring\n Ingliz or uzbek tilida")
 
 @dp.message_handler()
 async def tarjimon(message: types.Message):
